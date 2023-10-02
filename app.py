@@ -10,7 +10,7 @@ import io
 def load_llm(max_tokens, prompt_template):
     # Load the locally downloaded model here
     llm = CTransformers(
-        model = "llama-2-7b-chat.ggmlv3.q8_0.bin",
+        model = "llama-2-7b-chat.Q8_0.gguf",
         model_type="llama",
         max_new_tokens = max_tokens,
         temperature = 0.65
