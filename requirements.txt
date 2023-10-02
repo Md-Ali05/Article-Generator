@@ -1,0 +1,5 @@
+docx
+langchain==<version>  # Replace <version> with the appropriate version of LangChain
+streamlit==<version>  # Replace <version> with the appropriate version of Streamlit
+transformers==<version> (download from : https://huggingface.co/TheBloke/Llama-2-7B-GGUF )
+
